@@ -50,6 +50,12 @@ h3{
   }
  
 }
+.content-block:after, 
+.content-block:before{
+  display: block;
+  content: "";
+  clear: both;
+}
 .content-block:last-child{
   margin-bottom: 0;
 }
@@ -68,8 +74,8 @@ h3{
 }
 
 .left-content-section{
-  width: 355px;
-  position: absolute;
+  width: 365px;
+  float: left;
 }
 .right-img-section{
   margin-left: 385px;
